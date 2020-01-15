@@ -6,7 +6,7 @@
 
 if __name__ == '__main__':
     n = int(raw_input())
-    if(n>=1 and  n<=20):
+    if(n>=1 and n<=20):
         i=0
         while(i<n):
             ans=i*i
