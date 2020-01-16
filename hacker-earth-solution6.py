@@ -2,10 +2,6 @@
 
 #Constraints: 1900<=y<=10^5
 
-
-
-
-
 def leap_year(x):
     if x in range(1900, pow(10,5)+1):
         if (x % 4==0 and x % 100!=0):
