@@ -4,5 +4,5 @@ def splitjoin(string):
     return "-".join(string.split(" "))
 
 string=input("Enter a line")
-splitjoin(string)
-print(string)
+final_string= splitjoin(string)
+print(final_string)
