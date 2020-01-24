@@ -1,3 +1,5 @@
+#Guess the number game, wherein a number is stored in a variable beforehand, and the user is asked to enter a number, untill and unless the user enters the correct number, the program keeps executing. 
+
 i=32
 j=0
 while j!=i:
