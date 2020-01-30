@@ -1,7 +1,4 @@
 #Given an array, A , of N integers, print A's elements in reverse order as a single line of space-separated numbers.
-
-
-
 #!/bin/python
 
 import math
@@ -19,3 +16,13 @@ final=''
 for z in x:
     final=final+str(z)+' '
 print(final)
+
+
+
+#Second method
+li=list(input("Enter a list").split(" "))
+rev_li=li[::-1]
+final_li=""
+for x in rev_li:
+    final_li=final_li+x+" "
+print(final_li)
