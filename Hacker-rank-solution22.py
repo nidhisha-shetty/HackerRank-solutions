@@ -17,7 +17,7 @@ n=input("Enter input")
 i=int(input("Enter a number"))
 c=input("Enter the character")
 def mutate(n,i,c):
-    x=n[:i]+c[:]+n[i+1:]
+    x=n[:i]+c+n[i+1:]
     return x
 z=mutate(n,i,c)
 print(z)
