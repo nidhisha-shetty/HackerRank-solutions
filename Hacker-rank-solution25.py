@@ -11,7 +11,7 @@ a=ele(char, max_width)
 print(a)
 
 
-###Second method###
+###Second method (hackerrank specific)###
 def wrap(string, max_width):
     	final=''
     	for i in range(0, len(string), max_width):
