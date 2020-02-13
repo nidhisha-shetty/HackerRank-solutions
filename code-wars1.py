@@ -1,4 +1,4 @@
-#List filtering
+#List filtering (skips string elements)
 def filter_list(l):
   'return a new list with the strings filtered out'
   fin=[]
