@@ -3,7 +3,7 @@
 def ele(char, max_width):
     for i in range(0,len(char),2):
         res="".join(char[i:i+max_width])
-        return res
+    return res
    
 char=input("Enter a series of character")
 max_width=int(input("Enter a number"))
