@@ -1,4 +1,4 @@
-#Read an integer . For all non-negative integers , print . See the sample for details.
+#Read an integer n. For all non-negative integers n, print n*n. 
 #Constraints
 #1<=N<=20
 
